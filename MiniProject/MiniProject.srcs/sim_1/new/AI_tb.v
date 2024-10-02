@@ -42,23 +42,23 @@ TwoBitAdder uut (
 
 initial begin
     // Display header for output
-    $display("A0 B0 A1 B1 Cin | S0 S1 Cout");
+    //$display("A0 B0 A1 B1 Cin | S0 S1 Cout");
 
     // Apply test vectors
     A0 = 0; B0 = 0; A1 = 0; B1 = 0; Cin = 0;
-    #10 $display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
+    #10 //$display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
 
     A0 = 0; B0 = 1; A1 = 0; B1 = 1; Cin = 0;
-    #10 $display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
+    #10 //$display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
 
     A0 = 1; B0 = 0; A1 = 1; B1 = 0; Cin = 1;
-    #10 $display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
+    #10 //$display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
 
     A0 = 1; B0 = 1; A1 = 1; B1 = 1; Cin = 1;
-    #10 $display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
+    #10 //$display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
 
     A0 = 0; B0 = 1; A1 = 1; B1 = 0; Cin = 1;
-    #10 $display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
+    #10 //$display("%b  %b  %b  %b  %b   | %b  %b  %b", A0, B0, A1, B1, Cin, S0, S1, Cout);
 
     // Add more test cases if necessary
 

@@ -1,11 +1,7 @@
 0.7
 2020.2
-Sep  5 2024
-15:23:16
-C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/AI_tb.v,1727596405,verilog,,,,tb_TwoBitAdder,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/HalfAdder_tb.v,1727644426,verilog,,,,HalfAdder_tb,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/tb.v,1727592219,verilog,,,,tb,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sources_1/new/AITRy.v,1727596361,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/AI_tb.v,,TwoBitAdder,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sources_1/new/Half_Adder.v,1727652472,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/HalfAdder_tb.v,,Half_Adder,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sources_1/new/TwoBitFA.v,1727592192,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/tb.v,,TwoBitFA,,,,,,,,
+May 22 2024
+19:03:11
+C:/LocalWorkspace/EE275/MiniProject/MiniProject.sim/sim_1/behav/xsim/glbl.v,1708598508,verilog,,,,glbl,,,,,,,,
+C:/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/AI_tb.v,1727756326,verilog,,,,tb_TwoBitAdder,,,,,,,,
+C:/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sources_1/new/AITRy.v,1727596362,verilog,,C:/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/AI_tb.v,,TwoBitAdder,,,,,,,,
