@@ -1,7 +1,10 @@
 0.7
 2020.2
-May 22 2024
-19:03:11
-C:/LocalWorkspace/EE275/MiniProject/MiniProject.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
-C:/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/tb_ALUTest.v,1727861762,verilog,,,,ALU_tb,,,,,,,,
-C:/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sources_1/new/testALU.v,1727861631,verilog,,C:/LocalWorkspace/EE275/MiniProject/MiniProject.srcs/sim_1/new/tb_ALUTest.v,,ALU;fulladd;fulladd32;multiplier32,,,,,,,,
+Sep  5 2024
+15:23:16
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sim_1/new/tb_ALUTest.v,1727989305,verilog,,,,ALU_tb,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/FullAdd_oneBit.v,1727995726,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/FullAddr_32.v,,fulladd,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/FullAddr_32.v,1727995624,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/mult_32.v,,fulladd32,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/mult_32.v,1727999908,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/testALU.v,,multiplier32,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/testALU.v,1728001581,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sim_1/new/tb_ALUTest.v,,ALU,,,,,,,,

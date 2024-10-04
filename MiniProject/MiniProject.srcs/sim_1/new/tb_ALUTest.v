@@ -68,6 +68,7 @@ module ALU_tb;
 
         // Test multiplication
         #10 a = 32'd5; b = 32'd3; operation = 4'b0010; // Multiply a * b
+        #10 a = 32'd0; b = 32'd0; operation = 4'b0010; // Multiply a * b
 
         // Test AND operation
         #10 a = 32'hFFFF0000; b = 32'h0000FFFF; operation = 4'b0011; // AND
