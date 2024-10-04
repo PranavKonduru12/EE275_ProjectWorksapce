@@ -19,8 +19,8 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-//top Module
-module ALU (                    
+
+module ALU (
     input [31:0] a, b,         // 32-bit inputs a and b
     input [3:0] operation,     // 4-bit opcode for selecting operation
     input cin,                 // Carry in for add/sub
@@ -44,7 +44,7 @@ module ALU (
     multiplier32 mult32(.product(mult), .a(a), .b(b));
 
     // Logical operations
-    assign and_res = a & b;    // Use gate-level logic here         //AND(c1, a, b)
+    assign and_res = a & b;    // Use gate-level logic here
     assign or_res = a | b;     // OR gate
     assign xor_res = a ^ b;    // XOR gate
     assign not_res = ~a;       // NOT gate
@@ -118,91 +118,34 @@ endmodule
 
 
 //////////////////////
-//module multiplier32(      //From before October 3
-//    //output reg [31:0] product,
-//    output [64:0] product,                               ///////////////////////////////<<<--
-//    input [31:0] a, b
-//);
-//    wire [31:0] partial_products[31:0];
-//    wire [31:0] sum[30:0];
-//    wire [31:0] carry[30:0];
-
-//    // Generate partial products
-//    genvar i, j;
-//    generate
-//        for (i = 0; i < 32; i = i + 1) begin
-//            for (j = 0; j < 32; j = j + 1) begin
-//                assign partial_products[i][j] = a[i] & b[j];
-//            end
-//        end
-//    endgenerate
-
-//    // Add partial products
-//    assign sum[0] = partial_products[0];
-//    assign carry[0] = 32'b0;
-    
-//    generate
-//        for (i = 1; i < 32; i = i + 1) begin : mult_loop
-//            fulladd32 adder (.sum(sum[i]), .cout(carry[i]), .a(partial_products[i]), .b(sum[i-1]), .cin(carry[i-1]));
-//        end
-//    endgenerate
-
-//    assign product = {carry[31], sum[31]};
-//endmodule
-//module multiplier32(      //From October 3
-//    output [63:0] product,  // The product is 64 bits for a 32x32 multiplier
-//    input [31:0] a, b
-//);
-//    wire [31:0] partial_products[31:0];
-//    wire [31:0] sum[30:0];
-//    wire [31:0] carry[30:0];
-
-//    // Generate partial products
-//    genvar i, j;
-//    generate
-//        for (i = 0; i < 32; i = i + 1) begin
-//            for (j = 0; j < 32; j = j + 1) begin
-//                assign partial_products[i][j] = a[i] & b[j];
-//            end
-//        end
-//    endgenerate
-
-//    // Add partial products
-//    assign sum[0] = partial_products[0];
-//    assign carry[0] = 32'b0;
-    
-//    generate
-//        for (i = 1; i < 32; i = i + 1) begin : mult_loop
-//            fulladd32 adder (.sum(sum[i]), .cout(carry[i]), .a(partial_products[i]), .b(sum[i-1]), .cin(carry[i-1]));
-//        end
-//    endgenerate
-
-//    // Combine the final sum and carry to form the full 64-bit product
-//    assign product = {carry[31], sum[31]}; // Concatenate carry and sum for full result
-//endmodule
-////new multiplier
-module multiplier32 (       //New mult using registers
-    output reg [31:0] product,
+module multiplier32(
+    output [31:0] product,                               ///////////////////////////////<<<--
     input [31:0] a, b
 );
-    reg [63:0] temp_product; // To store the intermediate product
-    reg [31:0] multiplicand;
-    reg [31:0] multiplier;
-    integer i;
+    wire [31:0] partial_products[31:0];
+    wire [31:0] sum[30:0];
+    wire [31:0] carry[30:0];
 
-    always @(*) begin
-        temp_product = 64'b0;
-        multiplicand = a;
-        multiplier = b;
-
-        // Iterative shift-and-add multiplication
+    // Generate partial products
+    genvar i, j;
+    generate
         for (i = 0; i < 32; i = i + 1) begin
-            if (multiplier[i] == 1'b1) begin
-                temp_product = temp_product + (multiplicand << i);
+            for (j = 0; j < 32; j = j + 1) begin
+                assign partial_products[i][j] = a[i] & b[j];
             end
         end
+    endgenerate
 
-        product = temp_product[31:0]; // Get the lower 32 bits as the product
-    end
+    // Add partial products
+    assign sum[0] = partial_products[0];
+    assign carry[0] = 32'b0;
+    
+    generate
+        for (i = 1; i < 32; i = i + 1) begin : mult_loop
+            fulladd32 adder (.sum(sum[i]), .cout(carry[i]), .a(partial_products[i]), .b(sum[i-1]), .cin(carry[i-1]));
+        end
+    endgenerate
+
+    assign product = sum[31];
 endmodule
 
