@@ -24,16 +24,16 @@ module ALU (
     input [31:0] a, b,         // 32-bit inputs a and b
     input [3:0] operation,     // 4-bit opcode for selecting operation
     input cin,                 // Carry in for add/sub
-    output reg [31:0] result,      // 32-bit result
+    output reg [63:0] result,      // 32-bit result
     output overflow, underflow, // Overflow and underflow flags
     output equal, less_than, less_than_equal, // Comparator outputs
     output carry_out           // Carry out for add/sub
 );
-    wire [31:0] sum, diff, mult;
+    wire [31:0] sum, diff;
+    wire [63:0] mult;
     wire [31:0] and_res, or_res, xor_res, not_res;
     wire [31:0] cmp_res;
     wire cout_add, cout_sub;
-    wire [31:0] diff;             /////////new wires 
     wire diff_sign;
 
     // Add (using full adder structure)
