@@ -3,9 +3,5 @@
 Sep  5 2024
 15:23:16
 C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sim_1/new/tb_ALUTest.v,1728206122,verilog,,,,ALU_tb,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/FullAdd_oneBit.v,1727995726,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/FullAddr64.v,,fulladd,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/FullAddr64.v,1728191189,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/FullAddr_32.v,,fulladd64,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/FullAddr_32.v,1728191120,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/mult_32.v,,fulladd32,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/mult_32.v,1728206397,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/testALU.v,,multiplier64,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/testALU.v,1728203017,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sim_1/new/tb_ALUTest.v,,ALU,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sim_1/new/tb_RegFile.v,1728250946,verilog,,,,tb_RegFile,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sources_1/new/RegFile.v,1728250414,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject/MiniProject.srcs/sim_1/new/tb_RegFile.v,,regfile,,,,,,,,

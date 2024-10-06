@@ -43,7 +43,7 @@ module ALU (
     fulladd32 sub32(.sum(diff), .cout(cout_sub), .a(a), .b(~b), .cin(1'b1));  // For subtract, invert b and add 1
 
     // Multiply (using iterative addition or similar method)
-    multiplier64 mult32(.product(mult), .a(a), .b(b));
+    multiplier32 mult32(.product(mult), .a(a), .b(b));
 
     // Logical operations
     assign and_res = a & b;    // Use gate-level logic here         //AND(and_res, a, b)
