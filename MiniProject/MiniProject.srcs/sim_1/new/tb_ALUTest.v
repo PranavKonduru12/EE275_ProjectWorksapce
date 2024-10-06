@@ -30,7 +30,7 @@ module ALU_tb;
     // Outputs
     wire [31:0] result;
     wire overflow, underflow;
-    wire equal, less_than, less_than_equal;
+    wire equal, less_than, less_than_equal, mult_overflow;
     wire carry_out;
 
     // Instantiate the ALU
@@ -42,6 +42,7 @@ module ALU_tb;
         .result(result),
         .overflow(overflow),
         .underflow(underflow),
+        .mult_overflow(mult_overflow),
         .equal(equal),
         .less_than(less_than),
         .less_than_equal(less_than_equal),
@@ -67,10 +68,11 @@ module ALU_tb;
         #10 a = 32'd0; b = 32'd1; operation = 4'b0001; // Test for underflow
 
         // Test multiplication
-        #10 a = 32'd5; b = 32'd3; operation = 4'b0010; // Multiply a * b
-        #10 a = 32'd0; b = 32'd0; operation = 4'b0010; // Multiply a * b
-        #10 a = -32'd6; b = 32'd3; operation = 4'b0010; // Multiply a * b
-        #10 a = 32'd10; b = 32'd3; operation = 4'b0010; // Multiply a * b
+//        #10 a = 32'd5; b = 32'd3; operation = 4'b0010; // Multiply a * b
+//        #10 a = 32'd0; b = 32'd0; operation = 4'b0010; // Multiply a * b
+          #10 a = 32'd20; b = 32'd5; operation = 4'b0010; // Multiply a * b
+          #10 a = 32'd10; b = 32'd3; operation = 4'b0010; // Multiply a * b
+          #10 a = 32'd2000000000; b = 32'd2; operation = 4'b0010; // Multiply a * b
 
         // Test AND operation
         #10 a = 32'hFFFF0000; b = 32'h0000FFFF; operation = 4'b0011; // AND

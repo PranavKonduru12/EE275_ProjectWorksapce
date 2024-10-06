@@ -25,14 +25,14 @@ module ALU (
     input [3:0] operation,     // 4-bit opcode for selecting operation
     input cin,                 // Carry in for add/sub
     output reg [63:0] result,      // 32-bit result
-    output overflow, underflow, // Overflow and underflow flags
+    output overflow, underflow, mult_overflow, // Overflow and underflow flags
     output equal, less_than, less_than_equal, // Comparator outputs
     output carry_out           // Carry out for add/sub
 );
     wire [31:0] sum, diff;
     wire [63:0] mult;
     wire [31:0] and_res, or_res, xor_res, not_res;
-    wire [31:0] cmp_res;
+    //wire [31:0] cmp_res;
     wire cout_add, cout_sub;
     wire diff_sign;
 
@@ -43,7 +43,7 @@ module ALU (
     fulladd32 sub32(.sum(diff), .cout(cout_sub), .a(a), .b(~b), .cin(1'b1));  // For subtract, invert b and add 1
 
     // Multiply (using iterative addition or similar method)
-    multiplier32 mult32(.product(mult), .a(a), .b(b));
+    multiplier64 mult32(.product(mult), .a(a), .b(b));
 
     // Logical operations
     assign and_res = a & b;    // Use gate-level logic here         //AND(and_res, a, b)
@@ -68,6 +68,7 @@ module ALU (
     // Overflow/Underflow detection
     assign overflow = (a[31] == b[31]) && (sum[31] != a[31]);  // Detect overflow in addition
     assign underflow = (a[31] != b[31]) && (diff[31] != a[31]); // Detect underflow in subtraction
+    assign mult_overflow = (mult[31] != 32'b0);
 
 
 
