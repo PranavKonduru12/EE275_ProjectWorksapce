@@ -207,8 +207,8 @@ module RegisterFile (
     // Update Condition Code register on clock edge
     always @(posedge clk) begin
         cc_register <= cc_flags;  // Store ALU flags into the Condition Code register
-//        registers[3] <= 3;
-//        registers[4] <= 3;
+        registers[3] <= 3;
+        registers[4] <= 3;
     end
 
     // Register write operation
@@ -234,10 +234,10 @@ module CPU (
 );
    
     wire [31:0] reg_data1, reg_data2;            // Register values read from the Register File
-    reg [31:0] alu_result;                      // ALU result
+    wire [31:0] alu_result;                      // ALU result
     reg reg_write;                              // Enable register write
     
-    reg alu_op;                                 //ALU OpCode
+//    reg alu_op;                                 //ALU OpCode
     
     wire [4:0] cc_flags;                        // Condition Code flags from ALU (overflow, underflow, etc.)
     wire [5:0] opcode = instruction[31:26];     // OpCode: bits 31-26
@@ -264,10 +264,10 @@ module CPU (
     // Instantiate ALU
     ALU alu (
         .a(reg_data1),
-        //.b(reg_data2),
-        .b((6'b000111) ? immediate : reg_data2),   //picks immediate if same opcode else picks other one
-        //.operation(opcode[3:0]),                          // The lower 4 bits of the opcode are passed to the ALU for operation
-        .operation(alu_op),
+        .b(reg_data2),
+        //.b((6'b000111) ? immediate : reg_data2),   //picks immediate if same opcode else picks other one
+        .operation(opcode[3:0]),                          // The lower 4 bits of the opcode are passed to the ALU for operation
+        //.operation(alu_op),
         .cin(1'b0),                                         // Carry-in is 0 for now
         .result(alu_result),
         .overflow(cc_flags[4]),                             // Overflow flag
@@ -281,39 +281,39 @@ module CPU (
     always @(posedge clk) begin
         //immediate_passing = immediate;
         case (opcode)
-//            6'b000000: begin // ADD
-//                // ALU will perform addition, result will be in alu_result
-//                reg_write <= 1;  // Enable register write
+            6'b000000: begin // ADD
+                // ALU will perform addition, result will be in alu_result
+                reg_write <= 1;  // Enable register write
                 
-//            end
-//            6'b000001: begin // SUB
-//                // ALU will perform subtraction
-//                reg_write <= 1;  // Enable register write
-//            end
-//            6'b000010: begin // MULT
-//                // ALU will perform multiplication
-//                reg_write <= 1;  // Enable register write
-//            end
-//            6'b000011: begin // AND
-//                // ALU will perform bitwise AND
-//                reg_write <= 1;
-//            end
-//            6'b000100: begin // OR
-//                // ALU will perform bitwise OR
-//                reg_write <= 1;
-//            end
-//            6'b000101: begin // XOR
-//                reg_write <= 1;
-//            end
-//            6'b000110: begin // NOT
-//                reg_write <= 1;
-//            end
+            end
+            6'b000001: begin // SUB
+                // ALU will perform subtraction
+                reg_write <= 1;  // Enable register write
+            end
+            6'b000010: begin // MULT
+                // ALU will perform multiplication
+                reg_write <= 1;  // Enable register write
+            end
+            6'b000011: begin // AND
+                // ALU will perform bitwise AND
+                reg_write <= 1;
+            end
+            6'b000100: begin // OR
+                // ALU will perform bitwise OR
+                reg_write <= 1;
+            end
+            6'b000101: begin // XOR
+                reg_write <= 1;
+            end
+            6'b000110: begin // NOT
+                reg_write <= 1;
+            end
             6'b000111: begin // LOAD (Immediate Mode)
-                alu_op <= 4'b0000;
+//                alu_op <= 4'b0000;
                 // Load a value from memory (to be implemented)
                 reg_write <= 1;
                 // Memory read operation here (to be added)
-                alu_result <=  immediate;
+                //alu_result <=  immediate;
                 
             end
             6'b001000: begin // STORE (Immediate Mode)
@@ -321,27 +321,27 @@ module CPU (
                 reg_write <= 0;
                 // Memory write operation here (to be added)
             end
-//            6'b001001: begin // Unconditional Jump (JMP)
-//                // PC will be updated to the value in a register
-//                // reg_data1 contains the value of the target register (rs1)
-//                reg_write <= 0;
-//                // PC <= reg_data1;  // Not implemented yet
-//            end
-//            6'b001010: begin // Conditional Jump (JLT)
-//                // Check if less_than flag is set in CC register
-//                if (cc_flags[1]) begin
-//                    // PC <= reg_data1;  // Jump to the value in the register
-//                end
-//                reg_write <= 0;
-//            end
-//            6'b001011: begin // Procedure Call (CALL)
-//                // Save PC and call procedure (to be implemented)
-//                reg_write <= 0;
-//            end
-//            6'b001100: begin // Return from Procedure (RET)
-//                // Restore PC and return (to be implemented)
-//                reg_write <= 0;
-//            end
+            6'b001001: begin // Unconditional Jump (JMP)
+                // PC will be updated to the value in a register
+                // reg_data1 contains the value of the target register (rs1)
+                reg_write <= 0;
+                // PC <= reg_data1;  // Not implemented yet
+            end
+            6'b001010: begin // Conditional Jump (JLT)
+                // Check if less_than flag is set in CC register
+                if (cc_flags[1]) begin
+                    // PC <= reg_data1;  // Jump to the value in the register
+                end
+                reg_write <= 0;
+            end
+            6'b001011: begin // Procedure Call (CALL)
+                // Save PC and call procedure (to be implemented)
+                reg_write <= 0;
+            end
+            6'b001100: begin // Return from Procedure (RET)
+                // Restore PC and return (to be implemented)
+                reg_write <= 0;
+            end
             default: begin
                 reg_write <= 0;  // Do nothing for unrecognized OpCode
             end

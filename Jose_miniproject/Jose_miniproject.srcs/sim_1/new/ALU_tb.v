@@ -53,8 +53,8 @@ module CPU_tb;
         // Immediate/Address: bits 10-0
         
          //Test ADD operation: ADD R2, R3, R4 (R2 = R3 + R4)
-//        instruction = 32'b000000_00010_00011_00100_00000000000; // ADD R2, R3, R4
-//        #10;
+        instruction = 32'b000000_00010_00011_00100_00000000000; // ADD R2, R3, R4
+        #10;
 
 //        // Test SUB operation: SUB R2, R3, R4 (R2 = R3 - R4)
 //        instruction = 32'b000001_00010_00011_00100_00000000000; // SUB R2, R3, R4
@@ -85,8 +85,8 @@ module CPU_tb;
 //        #10;
           
 //          //Test Load operation
-          instruction = 32'b000111_00001_00000_00000_00000000010; // JMP to R2
-          #10;
+//          instruction = 32'b000111_00001_00000_00000_00000000010; // JMP to R2
+//          #10;
 
          //End of test
         $finish;
