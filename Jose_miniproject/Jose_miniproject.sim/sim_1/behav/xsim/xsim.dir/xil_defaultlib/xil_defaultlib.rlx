@@ -1,0 +1,7 @@
+0.7
+2020.2
+Sep  5 2024
+15:23:16
+C:/Users/Pranav/Downloads/Jose_miniproject/Jose_miniproject.sim/sim_1/behav/xsim/glbl.v,1697210496,verilog,,,,glbl,,,,,,,,
+C:/Users/Pranav/Downloads/Jose_miniproject/Jose_miniproject.srcs/sim_1/new/ALU_tb.v,1728354198,verilog,,,,CPU_tb,,,,,,,,
+C:/Users/Pranav/Downloads/Jose_miniproject/Jose_miniproject.srcs/sources_1/new/ALU.v,1728355967,verilog,,C:/Users/Pranav/Downloads/Jose_miniproject/Jose_miniproject.srcs/sim_1/new/ALU_tb.v,,ALU;CPU;RegisterFile;fulladd;fulladd32;multiplier32,,,,,,,,
