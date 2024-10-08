@@ -71,11 +71,10 @@ module RegisterFile (
 //        end
         if (reg_write) begin
             registers[write_reg] <= write_data;  // Write to the register
-            if (write_reg != 4'b0000) begin
-                
+            if (write_reg == 4'b0000) begin
                 pc <= write_data;
                 //sp <= 0;
-            end else if (write_reg != 4'b0001) begin
+            end else if (write_reg == 4'b0001) begin
                 sp <= write_data;
             end
         end

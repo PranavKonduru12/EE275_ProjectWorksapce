@@ -3,11 +3,11 @@
 May 22 2024
 19:03:11
 C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.sim/sim_1/behav/xsim/glbl.v,1728369342,verilog,,,,glbl,,,,,,,,
-C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sim_1/new/ALU_tb.v,1728362200,verilog,,,,CPU_tb,,,,,,,,
+C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sim_1/new/ALU_tb.v,1728422043,verilog,,,,ALU_tb,,,,,,,,
 C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sim_1/new/regfile_tb.v,1728371506,verilog,,,,tb_RegFile,,,,,,,,
-C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/ALU.v,1728364157,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/cpu.v,,ALU,,,,,,,,
+C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/ALU.v,1728364157,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/fulladd.v,,ALU,,,,,,,,
 C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/cpu.v,1728364080,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/fulladd.v,,CPU,,,,,,,,
 C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/fulladd.v,1728363938,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/fulladd32.v,,fulladd,,,,,,,,
 C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/fulladd32.v,1728363858,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/multiplier32.v,,fulladd32,,,,,,,,
-C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/multiplier32.v,1728364023,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/register_file.v,,multiplier32,,,,,,,,
-C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/register_file.v,1728374130,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sim_1/new/regfile_tb.v,,RegisterFile,,,,,,,,
+C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/multiplier32.v,1728364023,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sim_1/new/ALU_tb.v,,multiplier32,,,,,,,,
+C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sources_1/new/register_file.v,1728413035,verilog,,C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sim_1/new/regfile_tb.v,,RegisterFile,,,,,,,,
