@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module regfile(
+ module regfile(
     input clk,
     input [3:0] readReg1,   //Address for first register read
     input [3:0] readReg2,   //Address for second register read   
