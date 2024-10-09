@@ -1,0 +1,494 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Oct  8 15:56:40 2024
+# Process ID: 10556
+# Current directory: C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9324
+# Log file: C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: DESKTOP-1B65849, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16745 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project E:/Projects/miniproject/miniproject.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Projects/miniproject/miniproject.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2023.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'read_reg1' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:259]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'read_reg2' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:260]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'write_reg' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:261]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'product' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cout' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cout' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_tb_behav -key {Behavioral:sim_1:Functional:CPU_tb} -tclbatch {CPU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time: 0, Instruction: 38c00005, Result: 0
+Time: 10, Instruction: 39000003, Result: 0
+Time: 20, Instruction: 00432000, Result: 0
+$finish called at time : 30 ns : File "E:/Projects/miniproject/miniproject.srcs/sim_1/new/ALU_tb.v" Line 114
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1431.051 ; gain = 6.375
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sources_1\new\ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sim_1\new\ALU_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sources_1\new\ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sim_1\new\ALU_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sources_1\new\ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sim_1\new\ALU_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'CPU_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module fulladd32
+INFO: [VRFC 10-311] analyzing module fulladd
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/miniproject/miniproject.srcs/sim_1/new/ALU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_tb_behav xil_defaultlib.CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'read_reg1' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:259]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'read_reg2' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:260]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'write_reg' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:261]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'product' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cout' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cout' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.fulladd
+Compiling module xil_defaultlib.fulladd32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1462.379 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CPU_tb_behav -key {Behavioral:sim_1:Functional:CPU_tb} -tclbatch {CPU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time: 0, Instruction: 38c00005, Result: 0
+Time: 10, Instruction: 39000003, Result: 0
+Time: 20, Instruction: 00432000, Result: 0
+Time: 30, Instruction: 04432000, Result: 0
+Time: 40, Instruction: 08432000, Result: 0
+Time: 50, Instruction: 0c432000, Result: 0
+Time: 60, Instruction: 10432000, Result: 0
+Time: 70, Instruction: 14432000, Result: 0
+Time: 80, Instruction: 18430000, Result: 4294967295
+Time: 90, Instruction: 1c40000a, Result: x
+Time: 100, Instruction: 2003000a, Result: X
+Time: 110, Instruction: 24020000, Result: X
+Time: 120, Instruction: 28020000, Result: 0
+Time: 130, Instruction: 2c020000, Result: 0
+Time: 140, Instruction: 30000000, Result: 0
+$finish called at time : 150 ns : File "E:/Projects/miniproject/miniproject.srcs/sim_1/new/ALU_tb.v" Line 114
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:14 . Memory (MB): peak = 1463.301 ; gain = 0.922
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sources_1\new\ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sim_1\new\ALU_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sources_1\new\ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sim_1\new\ALU_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sources_1\new\ALU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\miniproject\miniproject.srcs\sim_1\new\ALU_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'cpu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'cpu_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'cpu_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj cpu_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module fulladd32
+INFO: [VRFC 10-311] analyzing module fulladd
+INFO: [VRFC 10-311] analyzing module multiplier32
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-311] analyzing module cpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/miniproject/miniproject.srcs/sim_1/new/ALU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cpu_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_tb_behav xil_defaultlib.cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 64 for port 'product' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:45]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cout' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cout' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'cin' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.RegisterFile
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.fulladd
+Compiling module xil_defaultlib.fulladd32_default
+Compiling module xil_defaultlib.multiplier32_default
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot cpu_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2530.715 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Projects/miniproject/miniproject.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "cpu_tb_behav -key {Behavioral:sim_1:Functional:cpu_tb} -tclbatch {cpu_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source cpu_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ALU Result:          0
+$finish called at time : 110 ns : File "E:/Projects/miniproject/miniproject.srcs/sim_1/new/ALU_tb.v" Line 51
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'cpu_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 2530.715 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7z007sclg400-1
+Top: cpu
+INFO: [Device 21-403] Loading part xc7z007sclg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11196
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2537.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'cpu' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:344]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:290]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (0#1) [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:290]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:183]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (0#1) [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:183]
+WARNING: [Synth 8-7071] port 'cc_flags' of module 'RegisterFile' is unconnected for instance 'reg_file' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:364]
+WARNING: [Synth 8-7023] instance 'reg_file' of module 'RegisterFile' has 12 connections declared, but only 11 given [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:364]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:238]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:238]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:89]
+INFO: [Synth 8-6157] synthesizing module 'fulladd' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'fulladd' (0#1) [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'fulladd32' (0#1) [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:89]
+INFO: [Synth 8-6157] synthesizing module 'multiplier32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:126]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:158]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:161]
+WARNING: [Synth 8-689] width (32) of port connection 'cout' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:167]
+WARNING: [Synth 8-689] width (32) of port connection 'cin' does not match port width (1) of module 'fulladd32' [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:170]
+INFO: [Common 17-14] Message 'Synth 8-689' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-6155] done synthesizing module 'multiplier32' (0#1) [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:126]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (0#1) [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:344]
+WARNING: [Synth 8-6014] Unused sequential element cc_register_reg was removed.  [E:/Projects/miniproject/miniproject.srcs/sources_1/new/ALU.v:212]
+WARNING: [Synth 8-7129] Port cc_flags[4] in module RegisterFile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cc_flags[3] in module RegisterFile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cc_flags[2] in module RegisterFile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cc_flags[1] in module RegisterFile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cc_flags[0] in module RegisterFile is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[31] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[30] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[29] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[28] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[27] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[26] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[25] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[24] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[23] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[22] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[21] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[20] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[19] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[18] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[17] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[16] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[15] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[14] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[13] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[12] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[11] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[10] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[9] in module instruction_memory is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[8] in module instruction_memory is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2537.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2537.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2537.848 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 2537.848 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2537.848 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 2537.848 ; gain = 0.000
+23 Infos, 132 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 2537.848 ; gain = 0.000
+close_design
+archive_project C:/Users/jfaja/Downloads/miniprojectFinal.xpr.zip -temp_dir C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10556-DESKTOP-1B65849 -force -include_local_ip_cache
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10556-DESKTOP-1B65849' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Projects/miniproject/miniproject.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10556-DESKTOP-1B65849/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10556-DESKTOP-1B65849/PrjAr/_X_/miniproject.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'

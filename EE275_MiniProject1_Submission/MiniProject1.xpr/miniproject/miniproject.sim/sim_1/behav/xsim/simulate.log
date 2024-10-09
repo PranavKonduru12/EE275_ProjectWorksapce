@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Starting CPU Testbench...
+Time: 5, ALU Result:          0
+Time: 15, ALU Result:          0
+Time: 25, ALU Result:          1
+Time: 35, ALU Result:          1
+Time: 45, ALU Result:          0
+Time: 55, ALU Result:          0
+Time: 65, ALU Result:          0
+Time: 75, ALU Result:          1
+Time: 85, ALU Result:          0
+Time: 95, ALU Result:          0
+Time: 105, ALU Result:          0
+$finish called at time : 110 ns : File "C:/Users/Pranav/Downloads/miniprojectFinal.xpr/miniproject/miniproject.srcs/sim_1/new/cpu_tb.v" Line 56
