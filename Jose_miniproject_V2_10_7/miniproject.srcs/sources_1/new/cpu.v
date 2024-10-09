@@ -51,7 +51,9 @@ module CPU (
         .reg_write(reg_write), 
         .reg_data1(reg_data1), 
         .reg_data2(reg_data2),
-        .cc_flags(cc_flags)                     // Pass CC flags to Register File
+        .cc_flags(cc_flags),                     // Pass CC flags to Register File
+        .pc(),                   // Program Counter (R0)
+        .sp()
     );
     
     // Instantiate ALU

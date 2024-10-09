@@ -1,16 +1,1 @@
 Time resolution is 1 ps
-Time: 0, a: 0, b: 0, operation: 0000, result: 0, overflow: 0, underflow: 0, equal: 1, less_than: 0, less_than_equal: 1
-Time: 10, a: 100, b: 50, operation: 0000, result: 150, overflow: 0, underflow: 0, equal: 0, less_than: 0, less_than_equal: 0
-Time: 20, a: 2147483647, b: 1, operation: 0000, result: 2147483648, overflow: 1, underflow: 0, equal: 0, less_than: 0, less_than_equal: 0
-Time: 30, a: 100, b: 50, operation: 0001, result: 50, overflow: 0, underflow: 0, equal: 0, less_than: 0, less_than_equal: 0
-Time: 40, a: 0, b: 1, operation: 0001, result: 4294967295, overflow: 0, underflow: 0, equal: 0, less_than: 1, less_than_equal: 1
-Time: 50, a: 4294967287, b: 3, operation: 0010, result: 4294967270, overflow: 0, underflow: 0, equal: 0, less_than: 1, less_than_equal: 1
-Time: 60, a: 2, b: 0, operation: 0010, result: 0, overflow: 0, underflow: 0, equal: 0, less_than: 0, less_than_equal: 0
-Time: 70, a: 4294901760, b: 65535, operation: 0011, result: 0, overflow: 0, underflow: 0, equal: 0, less_than: 1, less_than_equal: 1
-Time: 80, a: 4294901760, b: 65535, operation: 0100, result: 4294967295, overflow: 0, underflow: 0, equal: 0, less_than: 1, less_than_equal: 1
-Time: 90, a: 2863289685, b: 1431677610, operation: 0101, result: 4294967295, overflow: 0, underflow: 1, equal: 0, less_than: 0, less_than_equal: 0
-Time: 100, a: 2863311530, b: 1431677610, operation: 0110, result: 1431655765, overflow: 0, underflow: 1, equal: 0, less_than: 0, less_than_equal: 0
-Time: 110, a: 15, b: 15, operation: 0111, result: 1, overflow: 0, underflow: 0, equal: 1, less_than: 0, less_than_equal: 1
-Time: 120, a: 1, b: 15, operation: 1000, result: 1, overflow: 0, underflow: 0, equal: 0, less_than: 1, less_than_equal: 1
-Time: 130, a: 15, b: 15, operation: 1001, result: 1, overflow: 0, underflow: 0, equal: 1, less_than: 0, less_than_equal: 1
-$finish called at time : 140 ns : File "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/Jose_miniproject_V2_10_7/miniproject.srcs/sim_1/new/ALU_tb.v" Line 168
