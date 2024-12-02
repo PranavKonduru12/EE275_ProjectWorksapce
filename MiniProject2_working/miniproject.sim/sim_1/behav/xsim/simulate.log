@@ -1,0 +1,1394 @@
+Time resolution is 1 ps
+[Stage 1] opA: xxxxxxxx, opB: xxxxxxxx, opSelect: x
+[Stage 2] opA: xxxxxxxx, opB: xxxxxxxx, opSelect: x
+[Stage 3] Result: xxxxxxxx, Valid: x
+[Stage 4] Final Result: xxxxxxxx, Valid: x
+[Stage 1] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 3] Result: 00000000, Valid: 0
+[Stage 4] Final Result: 00000000, Valid: 0
+[Stage 1] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800000
+[Stage 3] Result After Execution: 7f800000
+[Stage 3] Result: 7f800000, Valid: 0
+[Stage 4] Final Result: 00000000, Valid: 0
+[Stage 1] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800000
+[Stage 3] Result After Execution: 7f800000
+[Stage 3] Result: 7f800000, Valid: 1
+[Stage 4] Final Result: 7f800000, Valid: 0
+[Stage 1] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800000
+[Stage 3] Result After Execution: 7f800000
+[Stage 3] Result: 7f800000, Valid: 1
+[Stage 4] Final Result: 7f800000, Valid: 1
+[Stage 1] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 7f, mantissaA: 200000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40c00000
+[Stage 3] Result: 40c00000, Valid: 1
+[Stage 4] Final Result: 7f800000, Valid: 1
+[Stage 1] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 7f, mantissaA: 200000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40c00000
+[Stage 3] Result: 40c00000, Valid: 1
+[Stage 4] Final Result: 40c00000, Valid: 1
+[Stage 1] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 7f, mantissaA: 200000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40c00000
+[Stage 3] Result: 40c00000, Valid: 1
+[Stage 4] Final Result: 40c00000, Valid: 1
+[Stage 1] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 7f, mantissaA: 200000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40c00000
+[Stage 3] Result: 40c00000, Valid: 1
+[Stage 4] Final Result: 40c00000, Valid: 1
+[Stage 1] opA: 40000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 3f800000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 7f, mantissaA: 200000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40c00000
+[Stage 3] Result: 40c00000, Valid: 1
+[Stage 4] Final Result: 40c00000, Valid: 1
+[Stage 1] opA: 40000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 40000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 80, mantissaA: 400000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40e00000
+[Stage 3] Result: 40e00000, Valid: 1
+[Stage 4] Final Result: 40c00000, Valid: 1
+[Stage 1] opA: 40000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 40000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 80, mantissaA: 400000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40e00000
+[Stage 3] Result: 40e00000, Valid: 1
+[Stage 4] Final Result: 40e00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 40000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 80, mantissaA: 400000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40e00000
+[Stage 3] Result: 40e00000, Valid: 1
+[Stage 4] Final Result: 40e00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40e00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[FADD] Register 0 Result: 40c00000
+[FADD] Register 1 Result: 40c00000
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 000000
+[Stage 3] Before Execution - signB: 0, exponentB: 81, mantissaB: a00000
+[Stage 3] Result After Execution: 40a00000
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 40a00000, opSelect: 0
+[Stage 3] Result: 40a00000, Valid: 1
+[Stage 4] Final Result: 40a00000, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800000
+[Stage 3] Result After Execution: 7f800000
+[Stage 3] Result: 7f800000, Valid: 0
+[Stage 4] Final Result: 00000000, Valid: 0
+[Stage 1] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 2] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800000
+[Stage 3] Result After Execution: 7f800000
+[Stage 3] Result: 7f800000, Valid: 1
+[Stage 4] Final Result: 7f800000, Valid: 0
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: 0
+[Stage 2] opA: 00000000, opB: 00000000, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800000
+[Stage 3] Result After Execution: 7f800000
+[Stage 3] Result: 7f800000, Valid: 1
+[Stage 4] Final Result: 7f800000, Valid: 1
+[Stage 1] opA: 40400000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: 0
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: 7f800006
+[Stage 3] Result: 7f800006, Valid: 1
+[Stage 4] Final Result: 7f800000, Valid: 1
+[Stage 1] opA: 40400000, opB: 00000003, opSelect: x
+[Stage 2] opA: 40400000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 80, mantissaA: c00000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 000000
+[Stage 3] Result After Execution: 40400000
+[Stage 3] Result: 40400000, Valid: 1
+[Stage 4] Final Result: 7f800006, Valid: 1
+[Stage 1] opA: 40400000, opB: 00000003, opSelect: x
+[Stage 2] opA: 40400000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 80, mantissaA: c00000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 000000
+[Stage 3] Result After Execution: 40400000
+[Stage 3] Result: 40400000, Valid: 1
+[Stage 4] Final Result: 40400000, Valid: 1
+[Stage 1] opA: 40400000, opB: 00000003, opSelect: x
+[Stage 2] opA: 40400000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 80, mantissaA: c00000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 000000
+[Stage 3] Result After Execution: 40400000
+[Stage 3] Result: 40400000, Valid: 1
+[Stage 4] Final Result: 40400000, Valid: 1
+[Stage 1] opA: 40800000, opB: 00000003, opSelect: x
+[Stage 2] opA: 40400000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 80, mantissaA: c00000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 000000
+[Stage 3] Result After Execution: 40400000
+[Stage 3] Result: 40400000, Valid: 1
+[Stage 4] Final Result: 40400000, Valid: 1
+[Stage 1] opA: 40800000, opB: 00000003, opSelect: x
+[Stage 2] opA: 40800000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 81, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 000000
+[Stage 3] Result After Execution: 40800000
+[Stage 3] Result: 40800000, Valid: 1
+[Stage 4] Final Result: 40400000, Valid: 1
+[Stage 1] opA: 40800000, opB: 00000003, opSelect: x
+[Stage 2] opA: 40800000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 81, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 000000
+[Stage 3] Result After Execution: 40800000
+[Stage 3] Result: 40800000, Valid: 1
+[Stage 4] Final Result: 40800000, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 40800000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 81, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 000000
+[Stage 3] Result After Execution: 40800000
+[Stage 3] Result: 40800000, Valid: 1
+[Stage 4] Final Result: 40800000, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: 40800000, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Vali

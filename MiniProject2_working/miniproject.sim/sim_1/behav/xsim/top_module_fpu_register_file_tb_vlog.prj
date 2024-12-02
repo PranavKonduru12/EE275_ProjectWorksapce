@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../miniproject.srcs/sources_1/new/FP_FourStage.v" \
+"../../../../miniproject.srcs/sources_1/new/FP_registerFile.v" \
+"../../../../miniproject.srcs/sources_1/new/FP_vector_scalar.v" \
+"../../../../miniproject.srcs/sources_1/new/fp_top_modules_regFiles.v" \
+"../../../../miniproject.srcs/sim_1/new/fp_top_module_regTb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
