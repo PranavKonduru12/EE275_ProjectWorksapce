@@ -1,10 +1,12 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_FourStage.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_FourStage.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fpu_4stage
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_registerFile.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_registerFile.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fp_register_file
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_vector_scalar.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_vector_scalar.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module vector_scalar_control
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/fp_top_modules_regFiles.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/fp_top_modules_regFiles.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module top_fpu_register_file
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/fp_top_module_regTb.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/fp_top_module_regTb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module top_module_fpu_register_file_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
