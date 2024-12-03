@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Time: 0ns, opA: 00000000, opB: 00000000, opSelect: 0, Result: 00000000, Valid: 0
+Time: 25ns, opA: 00000000, opB: 00000000, opSelect: 0, Result: 7f800000, Valid: 1
+Time: 30ns, opA: 3f800000, opB: 40000000, opSelect: 0, Result: 7f800000, Valid: 1
+Time: 60ns, opA: 40a00000, opB: 40400000, opSelect: 1, Result: 7f800000, Valid: 1
+Time: 65ns, opA: 40a00000, opB: 40400000, opSelect: 1, Result: 40400000, Valid: 1
+Time: 85ns, opA: 40a00000, opB: 40400000, opSelect: 1, Result: 40000000, Valid: 1
+Time: 90ns, opA: c0200000, opB: 40600000, opSelect: 0, Result: 40000000, Valid: 1
+Time: 115ns, opA: c0200000, opB: 40600000, opSelect: 0, Result: 3f800000, Valid: 1
+Time: 120ns, opA: 41200000, opB: 41700000, opSelect: 1, Result: 3f800000, Valid: 1
+Time: 145ns, opA: 41200000, opB: 41700000, opSelect: 1, Result: 41100000, Valid: 1
+Time: 150ns, opA: 41200000, opB: c20c0000, opSelect: 1, Result: 41100000, Valid: 1
+Time: 175ns, opA: 41200000, opB: c20c0000, opSelect: 1, Result: c1c80000, Valid: 1
+$finish called at time : 670 ns : File "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_extraCred/MiniProject2_extraCred.srcs/sim_1/new/fpu_4stage_tb.v" Line 103
