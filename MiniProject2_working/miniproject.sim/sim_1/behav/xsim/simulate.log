@@ -1391,4 +1391,21 @@ Time resolution is 1 ps
 [Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
 [Stage 3] Result After Execution: ff800006
 [Stage 3] Result: ff800006, Valid: 1
-[Stage 4] Final Result: ff800006, Vali
+[Stage 4] Final Result: ff800006, Valid: 1
+[FSUB] Register 0 Result: 40400000
+[FSUB] Register 1 Result: 40400000
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+[Stage 1] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 2] opA: 00000000, opB: 00000003, opSelect: x
+[Stage 3] Before Execution - signA: 0, exponentA: 00, mantissaA: 800000
+[Stage 3] Before Execution - signB: 0, exponentB: 00, mantissaB: 800003
+[Stage 3] Result After Execution: ff800006
+[Stage 3] Result: ff800006, Valid: 1
+[Stage 4] Final Result: ff800006, Valid: 1
+$finish called at time : 2015 ns : File "C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/fp_top_module_regTb.v" Line 397
