@@ -396,4 +396,10 @@ module top_module_fpu_register_file_tb;
         // Finish simulation
         #20 $finish;                                                         //////////////////////////
     end
+        // Count clock cycles
+    always @(posedge clk) begin
+        if (!rst && !done) begin
+            clock_cycles = clock_cycles + 1;
+        end
+    end
 endmodule
