@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../MiniProject2_extraCred.srcs/sources_1/new/fpu_4stage.v" \
-"../../../../MiniProject2_extraCred.srcs/sim_1/new/fpu_4stage_tb.v" \
+"../../../../MiniProject2_extraCred.srcs/sources_1/new/cla_24bits.v" \
+"../../../../MiniProject2_extraCred.srcs/sim_1/new/cla_24bits_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

@@ -19,7 +19,6 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module fpu_4stage_tb;
     // Inputs
     reg clk;
@@ -31,7 +30,7 @@ module fpu_4stage_tb;
     // Outputs
     wire [31:0] result;
     wire valid;
-    wire overflow_flag, underflow_flag, nan_flag;
+    //wire overflow_flag, underflow_flag, nan_flag;
 
     // Clock generation
     initial begin
@@ -47,10 +46,10 @@ module fpu_4stage_tb;
         .opB(opB),
         .opSelect(opSelect),
         .result(result),
-        .valid(valid),
-        .overflow_flag(overflow_flag), 
-        .underflow_flag(underflow_flag), 
-        .nan_flag(nan_flag)
+        .valid(valid)
+//        .overflow_flag(overflow_flag), 
+//        .underflow_flag(underflow_flag), 
+//        .nan_flag(nan_flag)
     );
 
     // Test sequence
