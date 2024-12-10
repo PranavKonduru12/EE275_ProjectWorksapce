@@ -1,0 +1,152 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Dec  7 23:59:59 2024
+# Process ID: 16868
+# Current directory: C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19436
+# Log file: C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: DESKTOP-1B65849, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16745 MB
+#-----------------------------------------------------------
+WARNING: [Runs 36-547] User Strategy 'Vivado Implementation Defaults' from file 'C:\Users\jfaja\AppData\Roaming/Xilinx/Vivado/2023.2/strategies/Vivado Implementation Defaults.Vivado Implementation 2023.psg' discarded because strategy with same name already parsed from 'E:/Vivado/2023.2/strategies/VDI2023.psg'
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project E:/Projects/RISC_V_pipeline/RISC_V_pipeline.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Projects/RISC_V_pipeline/RISC_V_pipeline.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2023.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode All [current_project]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+set_property is_enabled false [get_files  E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sim_1/new/ALU_FPU_tb.v]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+archive_project C:/Users/jfaja/Downloads/RISC_V_pipeline.xpr.zip -temp_dir C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-16868-DESKTOP-1B65849 -force -include_local_ip_cache -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-16868-DESKTOP-1B65849' for archiving project
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Projects/RISC_V_pipeline/RISC_V_pipeline.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sim_1\new\tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\Instruction_Memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sim_1\new\tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\Instruction_Memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sim_1\new\tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\Instruction_Memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sim_1\new\tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\Instruction_Memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-16868-DESKTOP-1B65849/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/jfaja/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-16868-DESKTOP-1B65849/PrjAr/_X_/RISC_V_pipeline.cache/ip 
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sim_1\new\tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\Instruction_Memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sim_1\new\tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\Instruction_Memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\ALU_64_bit.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sim_1\new\tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\Instruction_Memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\WBRegister.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\RISC_V_pipeline\RISC_V_pipeline.srcs\sources_1\new\RISC_V_Processor.v:]
