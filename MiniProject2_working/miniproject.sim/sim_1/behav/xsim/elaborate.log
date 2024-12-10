@@ -6,14 +6,6 @@ Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
 WARNING: [VRFC 10-3129] assignment to input 'opSelect' [C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/fp_top_modules_regFiles.v:148]
+WARNING: [VRFC 10-3705] select index 24 into 'mantissaResult' is out of bounds [C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_FourStage.v:520]
 Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.fp_register_file
-Compiling module xil_defaultlib.fpu_4stage
-Compiling module xil_defaultlib.vector_scalar_control
-Compiling module xil_defaultlib.top_fpu_register_file
-Compiling module xil_defaultlib.top_module_fpu_register_file_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot top_module_fpu_register_file_tb_behav
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

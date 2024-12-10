@@ -3,11 +3,11 @@
 Sep  5 2024
 15:23:16
 C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.sim/sim_1/behav/xsim/glbl.v,1732915598,verilog,,,,glbl,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/FP_FourStageTB.v,1733273369,verilog,,,,fpu_4stage_tb,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/FP_FourStageTB.v,1733625405,verilog,,,,fpu_4stage_tb,,,,,,,,
 C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/FP_registerFileTb.v,1733087480,verilog,,,,register_file_tb,,,,,,,,
 C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/fp_top_module_regTb.v,1733276708,verilog,,,,top_module_fpu_register_file_tb,,,,,,,,
 C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/fp_vector_scalar_controlTb.v,1733087579,verilog,,,,vector_scalar_control_tb,,,,,,,,
-C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_FourStage.v,1733030598,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_registerFile.v,,fpu_4stage,,,,,,,,
+C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_FourStage.v,1733624797,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/FP_FourStageTB.v,,fpu_4stage,,,,,,,,
 C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_registerFile.v,1733087658,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_vector_scalar.v,,fp_register_file,,,,,,,,
 C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/FP_vector_scalar.v,1733087533,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/fp_top_modules_regFiles.v,,vector_scalar_control,,,,,,,,
 C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sources_1/new/fp_top_modules_regFiles.v,1733112176,verilog,,C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_working/miniproject.srcs/sim_1/new/fp_top_module_regTb.v,,top_fpu_register_file,,,,,,,,
