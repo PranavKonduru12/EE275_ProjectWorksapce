@@ -1,11 +1,20 @@
 Time resolution is 1 ps
-a: 000000, b: 000000, cin: 0 => sum: 000000, carry_out: 0
-a: 000001, b: 000001, cin: 0 => sum: 000002, carry_out: 0
-a: 000001, b: 000001, cin: 1 => sum: 000003, carry_out: 0
-a: ffffff, b: 000001, cin: 0 => sum: 000000, carry_out: 1
-a: ffffff, b: ffffff, cin: 1 => sum: ffffff, carry_out: 1
-a: abcde0, b: 123456, cin: 0 => sum: be0236, carry_out: 0
-a: 0f0f0f, b: f0f0f0, cin: 1 => sum: 000000, carry_out: 1
-a: 100000, b: 100000, cin: 0 => sum: 200000, carry_out: 0
-a: aaaaaa, b: 555555, cin: 0 => sum: ffffff, carry_out: 0
-$finish called at time : 90 ns : File "C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_extraCred/MiniProject2_extraCred.srcs/sim_1/new/cla_24bits_tb.v" Line 97
+Time: 0ns, opA: 00000000, opB: 00000000, opSelect: 0, Result: 00000000, Valid: 0
+Time: 25ns, opA: 00000000, opB: 00000000, opSelect: 0, Result: 00Xxxxxx, Valid: 0
+Time: 30ns, opA: 3f800000, opB: 40000000, opSelect: 0, Result: 00Xxxxxx, Valid: 0
+Time: 35ns, opA: 3f800000, opB: 40000000, opSelect: 0, Result: 7f800000, Valid: 1
+Time: 55ns, opA: 3f800000, opB: 40000000, opSelect: 0, Result: 3f800000, Valid: 1
+Time: 60ns, opA: 40a00000, opB: 40400000, opSelect: 1, Result: 3f800000, Valid: 1
+Time: 65ns, opA: 40a00000, opB: 40400000, opSelect: 1, Result: 40400000, Valid: 1
+Time: 85ns, opA: 40a00000, opB: 40400000, opSelect: 1, Result: 40c00001, Valid: 1
+Time: 90ns, opA: c0200000, opB: 40600000, opSelect: 0, Result: 40c00001, Valid: 1
+Time: 95ns, opA: c0200000, opB: 40600000, opSelect: 0, Result: 40000002, Valid: 1
+Time: 115ns, opA: c0200000, opB: 40600000, opSelect: 0, Result: bf800000, Valid: 1
+Time: 120ns, opA: 41200000, opB: 41700000, opSelect: 1, Result: bf800000, Valid: 1
+Time: 125ns, opA: 41200000, opB: 41700000, opSelect: 1, Result: c0000000, Valid: 1
+Time: 145ns, opA: 41200000, opB: 41700000, opSelect: 1, Result: 41000001, Valid: 1
+Time: 150ns, opA: 41200000, opB: c20c0000, opSelect: 1, Result: 41000001, Valid: 1
+Time: 155ns, opA: 41200000, opB: c20c0000, opSelect: 1, Result: 41100001, Valid: 1
+Time: 175ns, opA: 41200000, opB: c20c0000, opSelect: 1, Result: c2100001, Valid: 1
+Time: 185ns, opA: 41200000, opB: c20c0000, opSelect: 1, Result: c2340001, Valid: 1
+$finish called at time : 670 ns : File "C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/MiniProject2_extraCred/MiniProject2_extraCred.srcs/sim_1/new/fpu_4stage_tb.v" Line 102
