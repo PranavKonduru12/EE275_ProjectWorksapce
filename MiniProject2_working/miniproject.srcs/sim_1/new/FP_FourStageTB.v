@@ -78,7 +78,7 @@ module fpu_4stage_tb;
         opSelect = 1;       // FSUB
 
         // Wait for 4 clock cycles
-        #40;
+        #100;
         $display("Test 2 - FSUB Result: %h, Valid: %b", result, valid);
 
         // Finish simulation
