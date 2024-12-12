@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module registerFile(
-  input wire [4:0] rs1, [4:0] rs2, [4:0] rd, [63:0] writeData, wire regWrite, clk, reset,
+  input wire [4:0] rs1, [4:0] rs2, [4:0] rd, [63:0] writeData, wire regWrite, clk, reset,       //why are they wires?
   output wire [63:0] ReadData1, wire [63:0] ReadData2 
 );
   reg [63:0] registerArr [31:0];

@@ -25,7 +25,7 @@ module ForwardingUnit(
   always @(rdMem or rdWb or regWriteMem or regWriteWb or rs1 or rs2)
   begin
     if (regWriteMem && (rdMem !== 5'b0) && (rdMem === rs2))
-      ForwardB = 2'b10;
+      ForwardB <= 2'b10;     //changed to <=
     else if (regWriteWb && (rdWb !== 5'b0) && (rdWb === rs2))
       ForwardB <= 2'b01;
     else
