@@ -1,0 +1,42 @@
+Vivado Simulator v2024.1.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'exception' [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/Adder.v:43]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'clk' [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/RISC_V_Processor.v:68]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'Branch_in' [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/RISC_V_Processor.v:71]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'ALUSrc_in' [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/RISC_V_Processor.v:72]
+WARNING: [VRFC 10-5021] port 'floatA' is not connected on this instance [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/RISC_V_Processor.v:50]
+WARNING: [VRFC 10-5021] port 'floatA' is not connected on this instance [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/RISC_V_Processor.v:80]
+WARNING: [VRFC 10-5021] port 'floatIn1' is not connected on this instance [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/RISC_V_Processor.v:81]
+WARNING: [VRFC 10-5021] port 'floatIn1' is not connected on this instance [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/RISC_V_Processor.v:82]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'exception' [C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/ALU_64_bit.v:43]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Program_Counter
+Compiling module xil_defaultlib.FPU
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.Instruction_Memory
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.IDRegister
+Compiling module xil_defaultlib.parser
+Compiling module xil_defaultlib.Control_Unit
+Compiling module xil_defaultlib.extractor
+Compiling module xil_defaultlib.registerFile
+Compiling module xil_defaultlib.EXRegister
+Compiling module xil_defaultlib.ALU_Control
+Compiling module xil_defaultlib.mux2
+Compiling module xil_defaultlib.ForwardingUnit
+Compiling module xil_defaultlib.ALU_64_bit
+Compiling module xil_defaultlib.MEMRegister
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.WBRegister
+Compiling module xil_defaultlib.RISC_V_Processor
+Compiling module xil_defaultlib.TestBench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TestBench_behav

@@ -1,0 +1,128 @@
+Time resolution is 1 ps
+Parser: Instruction parsed. Opcode=xxxxxxx, rd=xxxxx, funct3=xxx, rs1=xxxxx, rs2=xxxxx, funct7=xxxxxxx
+DEBUG: SumMant=xxxxxxx, FinalExp=  z
+DEBUG: SumMant=xxxxxxx, FinalExp=  z
+IDRegister: Reset activated. Outputs set to 0.
+Extractor: Load/Arithmetic immediate extracted: xxxxxxxxxxxxxxxx
+DEBUG: SumMant=xxxxxxx, FinalExp=  x
+DEBUG: SumMant=xxxxxxx, FinalExp=  x
+DEBUG: Both operands are zero
+DEBUG: SumMant=0000000, FinalExp=  0
+DEBUG: Both operands are zero
+DEBUG: SumMant=0000000, FinalExp=  0
+Time=                   0 | PC=0000000000000000 | Instruction=02853423 | ALUResult=0000000000000000 | FPUResult=00000000 | FPUException=11
+IDRegister: Reset activated. Outputs set to 0.
+IDRegister: Updated. PC_out=0000000000000000, ins_out=00000000
+Extractor: Branch immediate extracted: 0000000000000000
+Time=               15000 | PC=00000000xxxxxxxx | Instruction=xxxxxxxx | ALUResult=0000000000000000 | FPUResult=00000000 | FPUException=11
+IDRegister: Updated. PC_out=0000000000000000, ins_out=02853423
+Extractor: Load/Arithmetic immediate extracted: 0000000000000014
+DEBUG: SumMant=0000014, FinalExp=  0
+DEBUG: SumMant=0000014, FinalExp=  0
+Time=               25000 | PC=xxxxxxxxxxxxxxxx | Instruction=xxxxxxxx | ALUResult=00000000000000XX | FPUResult=00000000 | FPUException=11
+IDRegister: Updated. PC_out=00000000xxxxxxxx, ins_out=xxxxxxxx
+DEBUG: Both operands are zero
+DEBUG: SumMant=0000000, FinalExp=  0
+DEBUG: Both operands are zero
+DEBUG: SumMant=0000000, FinalExp=  0
+DEBUG: SumMant=xxxxxxx, FinalExp=  0
+DEBUG: SumMant=xxxxxxx, FinalExp=  0
+DEBUG: SumMant=xxxxxxx, FinalExp=  x
+DEBUG: SumMant=xxxxxxx, FinalExp=  x
+Time=               35000 | PC=xxxxxxxxxxxxxxxx | Instruction=xxxxxxxx | ALUResult=xxxxxxxxxxxxxxxx | FPUResult=xxxxxxxx | FPUException=00
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
