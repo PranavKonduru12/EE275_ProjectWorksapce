@@ -43,25 +43,25 @@ module Adder_tb();
         $display("Starting ALU_FPU Testbench...");
 
         // Test integer operations
-        a = 64'hFFFFFFFFFFFFFFFE; b = 64'h0000000000000005; isFloat = 0; #10;
+        floatA = {32'b0, 32'h00000000}; floatB = {32'b0, 32'h00000000}; a = 64'hFFFFFFFFFFFFFFFE; b = 64'h0000000000000005; isFloat = 0; #10;
         $display("ADD: - 2 + 5 Result=%h, Expected=0000000000000003", out);
         
-        a = 64'h000000000000000A; b = 64'h0000000000000005; isFloat = 0; #10;
+        floatA = {32'b0, 32'h00000000}; floatB = {32'b0, 32'h00000000}; a = 64'h000000000000000A; b = 64'h0000000000000005; isFloat = 0; #10;
         $display("SUB: 10 - 4 Result=%h, Expected=0000000000000005", out);
 
         // Test floating-point operations
         ///ADD
-        floatA = {32'b0, 32'h40400000}; floatB = {32'b0, 32'h40830000}; isFloat = 1; #10;
+        a= 64'h0; b= 64'h0; floatA = {32'b0, 32'h40400000}; floatB = {32'b0, 32'h40830000}; isFloat = 1; #10;
         $display("FADD 3.0 +  4.09375: Result=%h, Expected=40e30000", floatOut[31:0]);
         
-        floatA = {32'b0, 32'h4125FE84}; floatB = {32'b0, 32'h42F0BFAA}; isFloat = 1; #10;    
+        a= 64'h0; b= 64'h0; floatA = {32'b0, 32'h4125FE84}; floatB = {32'b0, 32'h42F0BFAA}; isFloat = 1; #10;    
         $display("FADD 10.374637603759765625 + 120.3743438720703125 : Result=%h, Expected=4302BFBD", floatOut[31:0]);
         
         ///SUB
-        floatA = {32'b0, 32'h40400000}; floatB = {32'b0, 32'h40000000}; isFloat = 1; #10;
+        a= 64'h0; b= 64'h0; floatA = {32'b0, 32'h40400000}; floatB = {32'b0, 32'h40000000}; isFloat = 1; #10;
         $display("FSUB 3.0 - 2.0: Result=%h, Expected=3f800000", floatOut[31:0]);
         
-        floatA = {32'b0, 32'h40421000}; floatB = {32'b0, 32'h40033000}; isFloat = 1; #10;
+        a= 64'h0; b= 64'h0; floatA = {32'b0, 32'h40421000}; floatB = {32'b0, 32'h40033000}; isFloat = 1; #10;
         $display("FSUB 3.0322265625 - 2.0498046875: Result=%h, Expected=3f7b8000", floatOut[31:0]);
         $finish;
     end

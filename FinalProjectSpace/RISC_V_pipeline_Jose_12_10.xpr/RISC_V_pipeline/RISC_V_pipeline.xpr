@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="67" Path="C:/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.xpr">
+<Project Product="Vivado" Version="7" Minor="67" Path="C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="6e363cfa5ed14b49b56c23e240858566"/>
@@ -58,7 +58,7 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="WTXSimLaunchSim" Val="62"/>
+    <Option Name="WTXSimLaunchSim" Val="71"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -89,19 +89,10 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/new/ALU_64_bit.v">
+      <File Path="$PSRCDIR/sources_1/new/FPU.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/ALU_64_bit.v"/>
-          <Attr Name="ImportTime" Val="1733893276"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/ALU_Control.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/ALU_Control.v"/>
-          <Attr Name="ImportTime" Val="1733641318"/>
+          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/FPU.v"/>
+          <Attr Name="ImportTime" Val="1733883424"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -116,8 +107,21 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/ALU_Control.v">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/ALU_Control.v"/>
+          <Attr Name="ImportTime" Val="1733641318"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/Control_Unit.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/Control_Unit.v"/>
           <Attr Name="ImportTime" Val="1733640600"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -127,6 +131,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/Data_Memory.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/Data_Memory.v"/>
           <Attr Name="ImportTime" Val="1733890026"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -136,6 +142,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/EXRegister.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/EXRegister.v"/>
           <Attr Name="ImportTime" Val="1733890934"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -143,17 +151,10 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/FPU.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/FPU.v"/>
-          <Attr Name="ImportTime" Val="1733883424"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/ForwardingUnit.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/ForwardingUnit.v"/>
           <Attr Name="ImportTime" Val="1733882744"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -163,6 +164,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/IDRegister.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/IDRegister.v"/>
           <Attr Name="ImportTime" Val="1733896112"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -172,6 +175,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/Instruction_Memory.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/Instruction_Memory.v"/>
           <Attr Name="ImportTime" Val="1733896478"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -181,6 +186,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/MEMRegister.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/MEMRegister.v"/>
           <Attr Name="ImportTime" Val="1733891624"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -188,17 +195,10 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/Program_Counter.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/Program_Counter.v"/>
-          <Attr Name="ImportTime" Val="1733644488"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/WBRegister.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/WBRegister.v"/>
           <Attr Name="ImportTime" Val="1733891832"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -208,6 +208,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/extractor.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/extractor.v"/>
           <Attr Name="ImportTime" Val="1733894580"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -217,6 +219,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/mux.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/mux.v"/>
           <Attr Name="ImportTime" Val="1733892482"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -224,17 +228,10 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/new/mux2.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/mux2.v"/>
-          <Attr Name="ImportTime" Val="1733892876"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/new/parser.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/parser.v"/>
           <Attr Name="ImportTime" Val="1733895462"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -244,6 +241,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/registerFile.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/registerFile.v"/>
           <Attr Name="ImportTime" Val="1733892160"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -251,8 +250,40 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/new/mux2.v">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/mux2.v"/>
+          <Attr Name="ImportTime" Val="1733892876"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/ALU_64_bit.v">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/ALU_64_bit.v"/>
+          <Attr Name="ImportTime" Val="1733893276"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/Program_Counter.v">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/Program_Counter.v"/>
+          <Attr Name="ImportTime" Val="1733644488"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/new/RISC_V_Processor.v">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sources_1/new/RISC_V_Processor.v"/>
           <Attr Name="ImportTime" Val="1733896868"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -263,7 +294,7 @@
       <File Path="$PPRDIR/archive_project_summary.txt"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="RISC_V_Processor"/>
+        <Option Name="TopModule" Val="Adder"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
@@ -275,18 +306,8 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sim_1/new/tb.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sim_1/new/tb.v"/>
-          <Attr Name="ImportTime" Val="1733644734"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sim_1/new/Adder_tb.v">
         <FileInfo>
-          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -295,6 +316,16 @@
       <File Path="$PSRCDIR/sim_1/new/FPU_tb.v">
         <FileInfo>
           <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/tb.v">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="E:/Projects/RISC_V_pipeline/RISC_V_pipeline.srcs/sim_1/new/tb.v"/>
+          <Attr Name="ImportTime" Val="1733644734"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -312,7 +343,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="TestBench"/>
+        <Option Name="TopModule" Val="Adder_tb"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>

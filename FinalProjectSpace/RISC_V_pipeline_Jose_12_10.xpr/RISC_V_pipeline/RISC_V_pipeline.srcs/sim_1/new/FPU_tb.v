@@ -66,7 +66,7 @@ module FPU_tb();
         
         //EXCEPTION Infinity
         opA = {32'b0, 32'h7F800000}; opB = {32'b0, 32'hFF800000}; FADD_FSUB = 0; #10;
-        $display("FADD - infi + infi: Result=%h, Expected=7FFFFFFF", result[31:0]);
+        $display("FADD - infi + infi: Result=%h, Expected=7FC00000", result[31:0]);
         $finish;
     end                            
 endmodule

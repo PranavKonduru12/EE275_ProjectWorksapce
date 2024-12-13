@@ -1,128 +1,15 @@
 Time resolution is 1 ps
-Parser: Instruction parsed. Opcode=xxxxxxx, rd=xxxxx, funct3=xxx, rs1=xxxxx, rs2=xxxxx, funct7=xxxxxxx
-DEBUG: SumMant=xxxxxxx, FinalExp=  z
-DEBUG: SumMant=xxxxxxx, FinalExp=  z
-IDRegister: Reset activated. Outputs set to 0.
-Extractor: Load/Arithmetic immediate extracted: xxxxxxxxxxxxxxxx
-DEBUG: SumMant=xxxxxxx, FinalExp=  x
-DEBUG: SumMant=xxxxxxx, FinalExp=  x
+Starting ALU_FPU Testbench...
 DEBUG: Both operands are zero
 DEBUG: SumMant=0000000, FinalExp=  0
-DEBUG: Both operands are zero
-DEBUG: SumMant=0000000, FinalExp=  0
-Time=                   0 | PC=0000000000000000 | Instruction=02853423 | ALUResult=0000000000000000 | FPUResult=00000000 | FPUException=11
-IDRegister: Reset activated. Outputs set to 0.
-IDRegister: Updated. PC_out=0000000000000000, ins_out=00000000
-Extractor: Branch immediate extracted: 0000000000000000
-Time=               15000 | PC=00000000xxxxxxxx | Instruction=xxxxxxxx | ALUResult=0000000000000000 | FPUResult=00000000 | FPUException=11
-IDRegister: Updated. PC_out=0000000000000000, ins_out=02853423
-Extractor: Load/Arithmetic immediate extracted: 0000000000000014
-DEBUG: SumMant=0000014, FinalExp=  0
-DEBUG: SumMant=0000014, FinalExp=  0
-Time=               25000 | PC=xxxxxxxxxxxxxxxx | Instruction=xxxxxxxx | ALUResult=00000000000000XX | FPUResult=00000000 | FPUException=11
-IDRegister: Updated. PC_out=00000000xxxxxxxx, ins_out=xxxxxxxx
-DEBUG: Both operands are zero
-DEBUG: SumMant=0000000, FinalExp=  0
-DEBUG: Both operands are zero
-DEBUG: SumMant=0000000, FinalExp=  0
-DEBUG: SumMant=xxxxxxx, FinalExp=  0
-DEBUG: SumMant=xxxxxxx, FinalExp=  0
-DEBUG: SumMant=xxxxxxx, FinalExp=  x
-DEBUG: SumMant=xxxxxxx, FinalExp=  x
-Time=               35000 | PC=xxxxxxxxxxxxxxxx | Instruction=xxxxxxxx | ALUResult=xxxxxxxxxxxxxxxx | FPUResult=xxxxxxxx | FPUException=00
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
-IDRegister: Updated. PC_out=xxxxxxxxxxxxxxxx, ins_out=xxxxxxxx
+ADD: - 2 + 5 Result=0000000000000003, Expected=0000000000000003
+SUB: 10 - 4 Result=000000000000000f, Expected=0000000000000005
+DEBUG: SumMant=0e30000, FinalExp=129
+FADD 3.0 +  4.09375: Result=40e30000, Expected=40e30000
+DEBUG: SumMant=082bfbd, FinalExp=134
+FADD 10.374637603759765625 + 120.3743438720703125 : Result=4302bfbd, Expected=4302BFBD
+DEBUG: SumMant=0a00000, FinalExp=129
+FSUB 3.0 - 2.0: Result=40a00000, Expected=3f800000
+DEBUG: SumMant=0a2a000, FinalExp=129
+FSUB 3.0322265625 - 2.0498046875: Result=40a2a000, Expected=3f7b8000
+$finish called at time : 60 ns : File "C:/Users/Pranav/LocalWorkspace/EE275/EE275_ProjectWorksapce/FinalProjectSpace/RISC_V_pipeline_Jose_12_10.xpr/RISC_V_pipeline/RISC_V_pipeline.srcs/sim_1/new/Adder_tb.v" Line 66
